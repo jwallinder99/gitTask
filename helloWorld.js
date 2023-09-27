@@ -1,5 +1,6 @@
 const helloWorld = () => {
-    console.log("Git is Awesome!")
+    const output = prompt("Enter something to be printed")
+    console.log(output)
 }
 
 helloWorld()
